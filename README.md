@@ -10,3 +10,20 @@ This repository contains the Python code for the implementations of the followin
 *f(x1, x2)* = exp(x1 + 3x2 - 0.1) + exp(x1 - 2x2 - 0.1) + exp(-x1 - 0.2)  
 
 ![Graph of the function f(x1, x2)](imagens/download.png)
+
+# Exact Line Search
+The exact line search goal is find the learning rate (t), where *alpha* is given by: 
+
+***alpha = argmin f(x + alpha * ∆x)***
+
+To find the *learning rate* (alpha) using *exact line search* for the *function f(x1, x2)*, the *hill climbing* algorithm was used. As *f(x1, x2)* cannot be solved analytically, so this approach was the simplest and fastest found. 
+
+The *hill climbing* algorithm basically looks at the left and rightmost value of the current point *x*. The value that decreases the result of the function will be considered the new current *x*. In our case we are varying the *alpha* value. 
+
+![exact line search](imagens/exact.png)
+
+# Gradient Descent
+
+# Steepest Descent
+
+# Newton Method
