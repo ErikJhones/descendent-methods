@@ -14,7 +14,7 @@ This repository contains the Python code for the implementations of the followin
 # Exact Line Search
 The exact line search goal is find the learning rate (t), where *alpha* is given by: 
 
-***alpha = argmin f(x + alpha * ∆x)***
+***alpha = argmin f(x + alpha * ∆x) | alpha > 0***
 
 To find the *learning rate* (alpha) using *exact line search* for the *function f(x1, x2)*, the *hill climbing* algorithm was used. As *f(x1, x2)* cannot be solved analytically, so this approach was the simplest and fastest found. 
 
