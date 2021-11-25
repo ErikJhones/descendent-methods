@@ -1,7 +1,24 @@
+# Install
+## Install python 3.9 and virtual venv in ubuntu ^18.04
+sudo apt update  
+sudo apt install python3.9  
+sudo Install venv libs for python tools  
+sudo  apt-get install python3.9-dev python3.9-venv  
+
+## create virtual venv
+python3.9 -m venv .env  
+
+## run virtual venv
+source .env/bin/activate  
+
+# Run aplication
+## Install libraries
+pip install -r requirements.txt
 
 # Descent Methods
 
-This repository contains the Python code for the implementations of the following minimization algorithms:  
+This repository contains the Python code for the implementations of the following minimization algorithms: 
+
 **Descent gradient** (with backtranking, exact line search);  
 **Steepest descent** (with squared norm);  
 **Newton's Method** (with backtracking).  
